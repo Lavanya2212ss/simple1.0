@@ -13,7 +13,7 @@ pipeline{
                       script{
 		    	                bat ''' 
 					
-					"C:\apache-maven-3.8.6\bin\mvn" -f %WORKSPACE%/pom.xml clean
+					"C:\\apache-maven-3.8.6\\bin\\mvn" -f %WORKSPACE%/pom.xml clean
 					'''
                       	  }
                	     }  
